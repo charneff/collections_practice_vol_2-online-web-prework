@@ -5,4 +5,7 @@ def begins_with_r(array)
 end
 
 def contain_a(arr)
-  array.select do 
+  array.select do |string|
+    string.include?("a")
+  end
+end
