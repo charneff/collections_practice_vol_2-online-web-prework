@@ -12,6 +12,6 @@ end
 
 def first_wa(arr)
   arr.detect do |string|
-    string[0] == "w" && string[1] == "a"
+    string[0,2] == "wa"
   end
 end
