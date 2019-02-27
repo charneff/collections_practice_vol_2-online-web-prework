@@ -15,3 +15,6 @@ def first_wa(arr)
     string[0,2] == "wa"
   end
 end
+
+def remove_non_strings(array)
+  array.
