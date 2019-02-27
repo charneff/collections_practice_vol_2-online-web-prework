@@ -10,3 +10,6 @@ def contain_a(arr)
   end
 end
 
+def first_wa(arr)
+  arr.select do |string|
+    string[0] == "w" && string[1] == "a"
