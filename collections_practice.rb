@@ -9,3 +9,4 @@ def contain_a(arr)
     string.include?("a")
   end
 end
+
